@@ -1,0 +1,107 @@
+
+.product{
+    display: flex;
+}
+
+.anhmota {
+    margin-left: 30px;
+    padding:15px;
+    width: 27%;/* Canh giữa .anhmota trong trường hợp chiều rộng của nó ít hơn 45% màn hình */
+}
+
+.productimages{
+    text-align: center;
+}
+
+.productimages img{
+    width: 95%;
+    height: auto;
+}
+
+.mota {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    flex-direction: column; /* Hiển thị các phần tử con theo chiều dọc */
+}
+
+.mota button{
+    background-color: red;
+    color: white;
+    width: 95%;
+    height:40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.mota p{
+    font-size: 17px;
+    text-align: justify;
+}
+
+button {
+    width: 100%;
+    margin-bottom: 10px; /* Khoảng cách giữa nút và nội dung mô tả */
+}
+
+main{
+    max-width: 1420px;
+    margin-left: 75px;
+    margin-right: 70px;
+    margin-top: 30px;
+    height: auto;
+    background-color: rgb(254, 254, 251);
+}
+.Chonphienban{
+    width:35%;
+    float: left;
+    margin-left: 10px;
+}
+
+.chonramrom {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border: 0.1px solid #000; /* Màu viền ban đầu */
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .chonramrom input {
+    display: none; /* Ẩn radio button mặc định */
+  }
+  
+  .chonramrom.clicked {
+    background-color: rgb(72, 78, 60); /* Màu nền khi được click */
+    border-color: aqua;
+    color: #fff; /* Màu chữ khi được click */
+  }
+
+  .chonmau{
+    display: inline-block;width:40px; height:30px; border-radius:5px; border: 0.2px solid black;
+  }
+  .chonmau:hover {
+    border: 1px solid yellow;
+  }
+
+  .chonramrom1{
+    display: flex;
+  }
+
+
+
+
+.promotion {
+    margin-top: 40px;
+    padding-top: 23px;
+    margin-bottom: 10px;
+}
+.frame_dt {
+    border: #cfb8b8 1px solid;
+    padding: 10px;
+    position: relative;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    width:420px;
+}

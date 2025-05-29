@@ -1,0 +1,192 @@
+body {
+    background-color: rgb(241, 235, 235);
+    margin: 0px;
+    margin-left: 0px;
+}
+
+
+
+
+
+
+
+.sale {
+    max-width: 1200px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+
+.slider {
+    padding:0px 10px;
+    width: 900px;
+    height: 380px;
+
+    position: relative;
+    overflow: hidden;
+    float: left;
+    border-radius: 10px;
+}
+
+.slider .list {
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 2s;
+}
+
+.slider .list img {
+    width: max-content;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider .buttons {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider .buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.slider .dots {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.slider .dots li {
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.slider .dots li.active {
+    width: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .slider {
+        height: 400px;
+    }
+}
+
+
+.khuyenmaicodinh {
+    width: 400px;
+    height:380px;
+    margin-left: 20px;
+    padding: 0px 5px;
+    background-color: rgb(145, 221, 221);
+
+    border-radius: 10px;
+}
+
+.tintuc{
+    padding:0px 10px;
+
+}
+
+.tintuc li a img {
+
+}
+
+.tintuc li {
+    list-style-type: none;
+}
+
+.tintuc li a {
+    max-width: 390px;
+    display: flex;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin-top: 18px;
+    height: 1000px;
+    background-color: rgb(254, 254, 251);
+
+}
+
+.product-list {
+    width: 18.4%;
+    background-color: white;
+    text-align: center;
+    height: 300px;
+    padding: 10px;
+    border: 0.5px solid wheat;
+    float: left;
+    height: 350px;
+}
+
+.product-list:hover img {
+    width: 205px;
+    
+}
+
+
+.menu-cate a{
+    text-decoration: none;
+    color:rgb(80, 80, 154);
+    text-align:center;
+}
+
+.headct {
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    border: 1px solid #ececec;
+}
+
+.name-product-category {
+    float: left;
+    color: #3f3f3f;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-right: 40px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+.product-category-child {
+    float: left;
+    padding-top: 0px;
+    display: flex; 
+    list-style: none; 
+    padding-top:20px;
+}
+.product-category-child a{
+text-decoration: none;
+    color:rgb(80, 80, 154);
+    text-align:center;
+    font-size:17px;
+}
